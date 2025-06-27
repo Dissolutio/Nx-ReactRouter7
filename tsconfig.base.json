@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-react-router7/ui": ["libs/ui/src/index.ts"]
+      "@nx-react-router7/ui": ["libs/ui/src/ui"]
     }
   },
   "exclude": ["node_modules", "tmp"]
