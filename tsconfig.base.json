@@ -10,26 +10,17 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-react-router7/ui": [
-        "libs/ui/src/ui"
-      ]
+      "@nx-react-router7/ui": ["libs/ui/src/ui"],
+      "@nx-react-router7/utils": ["libs/utils/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ],
+  "exclude": ["node_modules", "tmp"],
   "path": {
-    "@shadcn-test/styles/*": [
-      "libs/ui/src/styles/*"
-    ]
+    "@shadcn-test/styles/*": ["libs/ui/src/styles/*"]
   }
 }
