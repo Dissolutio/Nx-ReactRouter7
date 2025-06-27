@@ -1,9 +1,6 @@
-
 export function App() {
   return (
-    <div>
-      App
-    </div>
+    <div data-testid="app" className="bg-indigo-500 p-2 font-mono">Hello!</div>
   );
 }
 
