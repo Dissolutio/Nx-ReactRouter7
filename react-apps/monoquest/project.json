@@ -5,5 +5,12 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project monoquest --web",
-  "targets": {}
+  "targets": {
+    "build": {
+      "executor": "@nx/web:webpack",
+      "options": {
+        "postcssConfig": "react-apps/monoquest/postcss.config.js"
+      }
+    }
+  }
 }
